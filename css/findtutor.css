@@ -1,0 +1,344 @@
+@font-face {
+  font-family: "Lato-Regular";
+  src: url(../fonts/Lato-Regular.ttf);
+}
+@font-face {
+  font-family: "Lato-Black";
+  src: url(../fonts/Lato-Black.ttf);
+}
+@font-face {
+  font-family: "Lato-Bold";
+  src: url(../fonts/Lato-Bold.ttf);
+}
+@font-face {
+  font-family: "Lato-Light";
+  src: url(../fonts/Lato-Light.ttf);
+}
+
+
+/* chia cột*/
+.abc {
+  padding-bottom: 30px ;
+}
+
+/* body nà */
+body {
+    color: lightblack;
+    background: #fff;
+    font-family: "Lato-Light";
+    font-weight: bold;
+  }
+  
+  /* #page {
+    position: relative;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+  } */
+ 
+  #title-page {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  a:hover, a:active, a:focus {
+    outline: none;
+    text-decoration: none;
+  }
+  
+  p {
+    margin-bottom: 20px;
+    font-family: "Lato-Light";
+    font-weight: bold;
+  }
+  
+  h1, h4, h5, h6, figure {
+    color: #000;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+    font-family: "Lato-Bold";
+  }
+  
+h3 {
+  font-size: 36px;
+  font-family: "Lato-Bold";
+  color: #fff;
+  background: -webkit-linear-gradient(left, #1d3ede, #01e6f8);
+  background: -ms-linear-gradient(left, #1d3ede, #01e6f8);
+  background: -moz-linear-gradient(left, #1d3ede, #01e6f8);
+  background: -o-linear-gradient(left, #1d3ede, #01e6f8);
+  -webkit-background-clip: text;
+  -ms-background-clip: text;
+  -o-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -ms-text-fill-color: transparent;
+  -o-text-fill-color: transparent;
+}
+ h2 {
+  font-size: 36px;
+  font-family: "Lato-Black";
+  color: #fff;
+  background: -webkit-linear-gradient(left, #1d3ede, #01e6f8);
+  background: -ms-linear-gradient(left, #1d3ede, #01e6f8);
+  background: -moz-linear-gradient(left, #1d3ede, #01e6f8);
+  background: -o-linear-gradient(left, #1d3ede, #01e6f8);
+  -webkit-background-clip: text;
+  -ms-background-clip: text;
+  -o-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -ms-text-fill-color: transparent;
+  -o-text-fill-color: transparent;
+ } 
+  
+  /* phần chứa phần text "lựa chọn gia sư" và bộ lọc */
+  .gtco-container {
+    max-width: 1100px;
+    position: relative;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  
+
+  /* định dạng ảnh ava của tutor */
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .gtco-cover a {
+    color: #09C6AB;
+  }
+  .gtco-cover a:hover {
+    color: white;
+  }
+  /* ô trắng chứa bộ lọc */
+  .gtco-cover .overlay {
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(202, 233, 248, 0.5);
+  }
+  
+/* BUTTON */
+  .btn {
+    margin-right: -4px;
+    margin-bottom: 18px;
+    font-size: 16px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    padding: 13px 20px;
+  }
+  .btn:hover, .btn:active, .btn:focus {
+    box-shadow: none !important;
+    outline: none !important;
+  }
+ 
+  /* định dạng phần tìm kiếm ngay trong bộ lọc */
+  .btn-primary {
+    background-image: -moz-linear-gradient(0deg, #06c6f9 0%, #38eaf9 100%);
+    background-image: -webkit-linear-gradient(0deg, #06c6f9 0%, #38eaf9 100%);
+    background-image: -ms-linear-gradient(0deg, #06c6f9 0%, #38eaf9 100%);
+    font-size: 13px;
+    font-family: "Lato-Medium";
+    color: #fff;
+    border-radius: 50px;
+       display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    border-style: none !important;
+   
+  }
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    background: #01e6f8 !important;
+    border-color: #01e6f8 !important;
+    border-style: none !important;
+
+  }
+ .btn.btn-primary{
+   /*định dạng tên các mục của bộ lọc t thêm cho Thy dễ chỉnh nếu cần */
+    padding-bottom: 15px;
+ }
+
+
+
+  .form-control:active, .form-control:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #6bcee7;
+  }
+  /*định dạng phần chỉ chứa bộ lọc + text tìm gia sư... */
+  .row-mt-15em {
+    margin-top: 2em;
+    margin-bottom: 2em;
+  
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .row-mt-15em {
+      margin-top: 7em;
+    }
+  }
+  
+  .mt-sm {
+    margin-top: 6em;
+  }
+  @media screen and (max-width: 768px) {
+    .mt-sm {
+      margin-top: 3em;
+    }
+  }
+  
+  .row-pb-md {
+    padding-bottom: 4em !important;
+  }
+  
+  .row-pb-sm {
+    padding-bottom: 2em !important;
+  }
+  /* phần hình chữ nhật chứa ảnh + info của tutor */
+  .fh5co-card-item {
+    display: block;
+    width: 100%;
+    position: relative;
+    background: #fff;
+    overflow: hidden;
+    z-index: 9;
+    bottom: 0;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.08);
+    -ms-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.08);
+    -o-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.08);
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+  }
+  /* định dạng ô chứa ảnh của tutor, nếu không có thì ảnh sẽ hiện nguyên size lúc up lên */
+  .fh5co-card-item figure {
+    height: 240px;
+    overflow: hidden;
+    z-index: 12;
+    position: relative;
+  }
+  .fh5co-card-item figure .overlay {
+    opacity: 0;
+    visibility: hidden;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background: rgba(224, 203, 203, 0.4);
+    -webkit-transition: 0.7s;
+    -o-transition: 0.7s;
+    transition: 0.7s;
+  }
+  .fh5co-card-item figure .overlay i {
+    z-index: 12;
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    margin-left: -15px;
+    margin-top: -45px;
+    top: 50%;
+    left: 50%;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+  }
+  /* định dạng ảnh của tutor */
+  .fh5co-card-item img {
+    z-index: 8;
+    opacity: 1;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+  }
+  /* căn giữa text */
+  .fh5co-card-item .fh5co-text {
+    padding: 0px 10px 10px 20px;
+    text-align: center;
+  }
+  .fh5co-card-item .fh5co-text h2, .fh5co-card-item .fh5co-text span {
+    text-decoration: none !important;
+  }
+  /* định dạng text tên của tutor */
+  .fh5co-card-item .fh5co-text h2 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 10px 0;
+    color: #09C6AB;
+  }
+  .fh5co-card-item .fh5co-text span {
+    color: #b3b3b3;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  /* định dạng text của phần text dưới ảnh của tutor */
+  .fh5co-card-item .fh5co-text p {
+    color: #000;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+  }
+  /* định dạng mục riêng của cái ô 'Đặt lịch ngay' */
+  .fh5co-card-item .fh5co-text span.btn {
+ 
+    background-image: -moz-linear-gradient(0deg, #0667f9 0%, #38eaf9 100%);
+    background-image: -webkit-linear-gradient(0deg, #0667f9 0%, #38eaf9 100%);
+    background-image: -ms-linear-gradient(0deg, #0667f9 0%, #38eaf9 100%);
+    font-size: 12px;
+    font-family: "Lato-Medium";
+    color: #fff;
+    border-radius: 50px;
+    display: inline-block;
+    /* text-transform: uppercase; */
+    text-decoration: none !important;
+    border-style: none !important;
+  }
+  /* hiệu ứng nổi phần text dưới ảnh của tutor + viền mờ đen khi di chuột vào */
+  .fh5co-card-item:hover, .fh5co-card-item:focus {
+    bottom: 7px;
+    text-decoration: none;
+    -webkit-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19);
+    -ms-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19);
+    -o-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19);
+    box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19);
+  }
+  /* Hiệu ứng nổi ảnh lên khi di chuột vào ảnh của tutor */
+  .fh5co-card-item:hover img, .fh5co-card-item:focus img {
+    -webkot-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+ 
+  /* Phần text giới thiệu info của các tutor dưới ảnh như Lê Ngọc Bình, sinh viên năm nhất trường... */
+  .fh5co-card-item:hover h2, .fh5co-card-item:hover span, .fh5co-card-item:focus h2, .fh5co-card-item:focus span {
+    text-decoration: none !important;
+  }
+
+

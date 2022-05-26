@@ -1,0 +1,271 @@
+@font-face {
+    font-family: "Lato-Regular";
+    src: url(../fonts/Lato-Regular.ttf);
+  }
+  @font-face {
+    font-family: "Lato-Black";
+    src: url(../fonts/Lato-Black.ttf);
+  }
+
+  @font-face {
+    font-family: "Lato-Bold";
+    src: url(../fonts/Lato-Bold.ttf);
+  }  
+  @font-face {
+    font-family: "Lato-Light";
+    src: url(../fonts/Lato-Light.ttf);
+  }
+/*font size of 14px*/
+
+.course-listing-page .button-group button,
+.gallery-section .button-group button,
+.gallery-section2 .button-group button,
+.learn-courses .box-body p, 
+.course-listing-page .grid-item .box-body p,
+.recent-course-single .grid-item .box-body p,
+.details p,
+.details h5,
+.news-detail h2,
+.news-detail p,
+.footer-first-section .box-wrap p,
+.footer-first-section .box-wrap h4,
+.footer-first-section .box-wrap ul li a,
+.footer-first-section .recent-course-wrap .course-name p,
+.footer-first-section .quick-contact input,
+.footer-first-section .quick-contact textarea,
+.footer-first-section .quick-contact button, 
+.grid-box-wrap .grid-body h4,
+.page-content .post-content p,
+.page-content .courses-wrap span,
+.page-content .page-article a,
+.team-members .developer-wrap p,
+.course-detail .course-box p,
+#course-page aside .reserve-course input[type="text"],
+aside .reserve-course input[type="email"],
+.testimonial-page aside .submit-testimonials input[type="text"],
+.testimonial-page aside .submit-testimonials input[type="email"],
+#course-page aside .reserve-course textarea,
+.testimonial-page aside .submit-testimonials textarea,
+.testimonial-page .submit-testimonials form .custom-file-upload,
+.row .rewiew-content p,
+.top-header .container,
+.testimonial-holder,
+.post-content span a svg,
+.developer-wrap li a svg,
+.submit-testimonials form span p,
+figcaption h4
+{
+	font-size: 1.4rem;
+}
+
+/*Font size of 15px*/
+
+.row .rewiew-content footer h4,
+.row .rewiew-content footer h4::before,
+.row .rewiew-content footer h4::after{
+	font-size: 1.5rem;
+}
+
+/*Font size of 16px*/
+
+.whyus-wrap p,
+.footer-first-section .recent-course-wrap .course-name h3,
+.footer-last-section .container p,
+.grid-box-wrap .grid-body p,
+.grid-box-wrap .grid-body a,
+.page-content .container aside .news-letter p,
+.page-content .container aside .news-letter input[type="email"],
+.page-content .container aside .news-letter a,
+.page-content .post-content h3,
+.contact-page-section .people-info-wrap p,
+.contact-page-section .people-info-wrap form .input-,
+.people-info-wrap form input[type="submit"],
+.about-upper-section .who-we-are p,
+.about-upper-section .our-story a,
+.course-detail .course-box h3,
+.course-detail .course-box button,
+.course-detail p,
+.course-objective li,
+.contact-list li span
+{
+	font-size: 1.6rem;
+}
+
+/*font size of 18px*/
+
+.nav-menu a,
+.learn-courses .learn-desining-banner,
+.course-listing-page .grid-item .learn-desining-banner-course,
+.recent-course-single .grid-item .learn-desining-banner-course,
+.featured-points li,
+.read-more-btn,
+.details h3,
+.news-detail h1,
+.footer-first-section .box-wrap header h1,
+.page-content .courses-wrap p,
+.page-content .page-article p,
+.page-content .share-section span,
+.comment-form input[type="text"],
+.comment-form input[type="email"],
+.comment-form textarea,
+.comment-form p,
+.button-section .button, .customer-review .button,
+.team-members .developer-wrap h3,
+#course-page aside .reserve-course input[type="submit"],
+.testimonial-page aside .submit-testimonials input[type="submit"],
+.row .rewiew-content header h3,
+.row .rewiew-content header p,
+.footer-second-section .social-list li a svg,
+.contact-list li svg,
+figcaption h3 
+{
+	font-size: 1.8rem;
+}
+
+/*font size of 20px*/
+
+.banner .container h3,
+.grid-box-wrap .grid-body h1,
+.page-content .container aside .recent-post h2,
+.navigation.pagination .page-numbers,
+.contact-page-section .contact-social li a,
+#course-page .reserve-course h2,
+.testimonial-page aside .submit-testimonials h2
+{
+	font-size: 2rem;
+}
+
+
+/*Font size of 24px*/
+.query-section .container p,
+.page-content .container aside .news-letter h2,
+.page-content .follow-us h2,
+.page-content .follow-us a,
+.page-content .share-section span a,
+.page-content .categories-block h2,
+.comments-title,
+.comment-form h2,
+.course-detail h3
+{
+	font-size: 2.4rem;
+}
+
+/*font size of 25px*/
+
+.featured-points ul svg,
+.about-upper-section .our-story svg
+{
+	font-size: 2.5rem;
+}
+
+
+/*Font Size Of 30px*/
+
+.page-heading .container h2,
+.whyus-wrap h1,
+.wrap-others-say h1,
+.contact-page-section .people-info-wrap h2,
+.contact-page-section .contact-info h2,
+.top-heading,
+#course-page .course-detail h2,
+.recent-course-single h2
+{
+	font-size: 3rem;
+}
+
+/*Font Size of 40px*/
+
+.banner .container h1,
+.banner .owl-nav .owl-prev, 
+.banner .owl-nav .owl-next,
+.page-content .page-article h1
+{
+	font-size: 4rem;
+    
+}
+
+
+
+
+h3
+{
+    font-family: "Lato-Bold";
+    color:  #354ec9;
+}
+
+
+/*======Dark BLue Color For BackGround============*/
+
+h2 {
+    font-family: "Lato-Black";
+    background: -webkit-linear-gradient(left, #2a45c9, #01e6f8);
+    background: -ms-linear-gradient(left, #4361f7, #01e6f8);
+    background: -moz-linear-gradient(left, #4361f7, #01e6f8);
+    background: -o-linear-gradient(left, #4361f7, #01e6f8);
+    -webkit-background-clip: text;
+    -ms-background-clip: text;
+    -o-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -ms-text-fill-color: transparent;
+    -o-text-fill-color: transparent;
+}
+
+.button-section .button, .customer-review .button,
+.course-detail .course-box button,
+#course-page aside .reserve-course input[type="submit"],
+.testimonial-page aside .submit-testimonials input[type="submit"]
+{
+    background-image: -moz-linear-gradient(0deg, #06c6f9 0%, #38eaf9 100%);
+    background-image: -webkit-linear-gradient(0deg, #06c6f9 0%, #38eaf9 100%);
+    background-image: -ms-linear-gradient(0deg, #06c6f9 0%, #38eaf9 100%);
+    font-size: 18px;
+    font-family: "Lato-Medium";
+    color: #fff;
+    border-radius: 50px;
+    padding: 5px 30px;
+    display: inline-block;
+    text-transform: uppercase;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-decoration: none !important;
+}
+
+/*======Dark BLue Color For Text============*/
+
+
+
+
+
+/*===========================================*/
+.course-detail p,
+.course-objective li
+{
+    color:  black !important;
+    font-family:   "Lato-Light";
+    font-size: 15px !important;
+    font-weight: bold !important;
+   
+}
+
+/*===========================================*/
+
+
+
+
+
+
+
+
+/*==========================================*/
+
+
+
+/*=================================================*/
+
+.page-content .container aside .news-letter,
+#course-page aside .reserve-course,
+.testimonial-page aside .submit-testimonials,
+.query-section
+{
+	background: #f3f3f3;
+}
